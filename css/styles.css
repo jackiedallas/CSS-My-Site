@@ -1,7 +1,11 @@
-/* body {
-  background-color: purple;
-} */
+div {
+  background-color: #151515;
+  color: #B4A5A5;
+}
+body {
+  margin: 0;
+}
 
 h1 {
-  text-align: center;
+  margin-top: 0;
 }
