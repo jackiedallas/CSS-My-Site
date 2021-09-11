@@ -1,18 +1,35 @@
 body {
   margin: 0;
+  text-align: center;
 }
 
 h1 {
   margin-top: 0;
+
 }
 
 .top-container {
   background-color: #151515;
   color: #B4A5A5;
   width: 100%;
+  position: relative;
+  padding-top: 100px;
   /* border: 10px solid hotpink; */
   /* padding: 20px; */
 
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 45px;
 }
 
 /* .middle-container {
