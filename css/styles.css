@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Space Mono', monospace;
+  background-color: #B4A5A5
 }
 
 h1 {
@@ -33,20 +34,8 @@ h1 {
   top: 45px;
 }
 
-/* .middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: darkred;
-  border: 20px solid green;
-  margin-bottom: 10px;
-  margin-left: 260px;
-  padding: 20px;
+#profile-pic {
+  height: 250px;
+  width: 250px;
+  margin: 1em 0 0 0;
 }
-
-.bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: gold;
-  border: 10px solid black;
-  margin-left: 500px;
-} */
