@@ -169,3 +169,8 @@ a:hover {
 .BUTTON_XMI:hover {
   color: limegreen;
 }
+
+.profile p {
+  width: 50%;
+  margin: 0 auto;
+}
