@@ -16,6 +16,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
+  padding-top: 2rem;
 
 }
 
@@ -170,6 +171,12 @@ a:hover {
   color: limegreen;
 }
 
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .profile p {
   width: 50%;
   margin: 0 auto;
