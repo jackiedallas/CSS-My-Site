@@ -1,8 +1,11 @@
 body {
-  margin: 0;
+  margin: auto;
   text-align: center;
   font-family: 'Space Mono', monospace;
-  background-color: #B4A5A5
+  background-color: #B4A5A5;
+  /* min-height: 100vh; */
+  /* max-width: 960px; */
+
 }
 
 h1 {
@@ -21,6 +24,7 @@ h3 {
 }
 
 hr {
+  margin-top: 2rem;
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
@@ -51,6 +55,7 @@ a:hover {
   width: 100%;
   position: relative;
   padding-top: 100px;
+  background-size: cover;
   /* border: 10px solid hotpink; */
   /* padding: 20px; */
 
@@ -101,4 +106,66 @@ a:hover {
   height: 250px;
   width: 250px;
   margin: 8em 0 0 0;
+}
+
+.bottom-container {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+}
+
+.footer-content {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* justify: flex-end; */
+  /* justify-content: center;
+  align-items: center; */
+  padding-top: 3.5rem;
+  margin-top: auto;
+
+  background-color: black;
+  /* justify-content: space-between; */
+
+}
+
+.BUTTON_XMI {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #000000;
+   font-family: Courier New;
+   font-size: 15px;
+   font-weight: 400;
+   padding: 15px;
+   background-color: #6930C3;
+   border: solid #000000 3px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.footer-link {
+  margin: 10px 30px;
+  color: #6930C3;
+  /* display: flex; */
+  font-size: 20px;
+  text-decoration: none;
+  /* justify-content: space-between; */
+  /* display: inline; */
+}
+
+.footer-link:hover {
+  color: limegreen;
+}
+
+.footer-content p {
+  font-size: .75rem;
+  margin-top: 30px;
+  color: limegreen;
+}
+
+.BUTTON_XMI:hover {
+  color: limegreen;
 }
